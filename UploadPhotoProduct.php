@@ -6,7 +6,7 @@
 //crio um atributo e instancia a classe
 $pdo = Modulo::conectar();
 //seta para o atributo algumas mensagens de possiveis erros
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
 //definimos um atributo para execução de algumas instruções
 $validado = false;
